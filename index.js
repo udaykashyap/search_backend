@@ -17,5 +17,5 @@ app.use('/user', userRouter)
 app.listen(process.env.PORT, async () => {
     await Connections
     console.log("connected to the mongodb")
-    console.log("Listening on 8080")
+    // console.log("Listening on 8080")
 })
